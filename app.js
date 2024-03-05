@@ -81,6 +81,7 @@ function changeColor() {
 
       const nonEmptyBoxColors = getNonEmptyBoxColors(boxs);
 
+      //below you can change the prefered condition here i set it to 3
       if (nonEmptyBoxColors.length === 3) {
         for (let index = 0; index < randomBoxes.length; index++) {
           const randomIndex = randomNum(nonEmptyBoxColors.length) - 1;

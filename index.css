@@ -1,0 +1,125 @@
+html body {
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  row-gap: 20px;
+  background-color: #f7ce68;
+}
+
+.color-box-container {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 12px;
+  background-color: bisque;
+}
+.box1,
+.box2,
+.box3 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 5px;
+  border: 0;
+}
+.btn-roll {
+  width: 18rem;
+  height: 4rem;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-reset {
+  width: 18rem;
+  height: 4rem;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background-color: rgb(226, 43, 43);
+  color: white;
+  border-radius: 5px;
+}
+.btn-reset:hover, .btn-roll:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+.btn-reset:active, .btn-roll:active {
+  opacity: 0.5;
+}
+
+.pick-color-container {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  grid-template-rows: repeat(2, 6rem);
+  column-gap: 10px;
+  background-color: bisque;
+  row-gap: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover, .b6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+.b1 {
+  background-color: yellow;
+}
+.b2 {
+  background-color: white;
+  color: black;
+}
+.b3 {
+  background-color: palevioletred;
+}
+.b4 {
+  background-color: blue;
+}
+.b5 {
+  background-color: red;
+}
+.b6 {
+  background-color: green;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  row-gap: 25px;
+  padding: 10px 15px;
+  height: 100%;
+  border: solid 1px;
+  border-radius: 7px;
+}
